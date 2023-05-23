@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleG.css">
+    <title>Ganador</title>
+</head>
+<body>
+    <audio id="myAudio" src="audio/audio6.mp3" autoplay loop></audio>
+    <div class="monkey"></div>
+        <img src="" class="monkey2" id="ganador">
+    
+    <script src="confetti.js"></script>
+    <script>
+        const start = () =>{
+            setTimeout(function(){
+                confetti.start();
+            });
+        };
+        start();
+
+        window.addEventListener("unload", function() {
+            document.getElementById("myAudio").pause();
+        });
+
+        const myAudio = document.getElementById("myAudio");
+    </script>
+    <script src="ganador.js" charset="UTF-8"></script>
+</body>
+</html>

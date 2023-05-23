@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleP.css">
+    <title>Juego</title>
+</head>
+
+<body>
+    <audio id="myAudio" src="audio/audio3.mp3" autoplay loop></audio>
+    <button id="playButton" class="musicButton"><i class="fas fa-music"></i></button>
+    <div id="container">
+        <div id="inner-container">
+            
+            <img src="img/lab.png" alt="Imagen" id="map" style="position: relative;" >
+            <!-- <img src="img/lab.png" alt="Imagen">
+            <button class="btn2" id="btnStart" onclick="iniciarJuego()"></button>
+            -->
+            <!-- <img src="img/punteada.png" alt="Imagen">-->
+        </div>
+    </div>
+    <div class="ad" id="distance"></div>
+    
+    <a href="despedida.html"><button class="btn"></button></a>
+    <!--<button class="btn2"></button>-->
+    <div id="modal">
+        <div class="modal-content">
+            <img src="img/sigb.png" class="modalimg">
+        </div>
+      </div>
+      <div id="modal2">
+        <div class="modal-content">
+            <img src="img/sig.png" class="modalimg">
+        </div>
+      </div>
+    <form action="">
+      <div class="Nequipo" id="nequito"></div>
+        <img class="imgEquipo" src="img/LA1.png" id="imgEquipo" alt="Equipo">
+        <audio id="respuesta">
+            <source src="audio/bien.mp3" >
+          </audio>
+          <audio id="respuesta2">
+            <source src="audio/mal.mp3" >
+          </audio>
+        <div class="pregunta">
+            <h1 id="pregunta"></h1>
+        </div>
+        
+        <div class="botones" >
+            <div class="bv" id="btn1" onclick="oprimir_btn(0)"></div>
+            <div class="bv" id="btn2" onclick="oprimir_btn(1)"></div>
+            <div class="bv" id="btn3" onclick="oprimir_btn(2)"></div>
+            <div class="bv" id="btn4" onclick="oprimir_btn(3)"></div>
+        </div>
+
+        <div class="botones" id="botones"></div>
+      <p class="mensaje" id="mensaje"></p>
+    </form>
+    <script>
+        window.addEventListener("unload", function () {
+            document.getElementById("myAudio").pause();
+        });
+        const myAudio = document.getElementById("myAudio");
+const playButton = document.getElementById("playButton");
+
+playButton.addEventListener("click", () => {
+  if (myAudio.paused) {
+    myAudio.play();
+    playButton.innerHTML = "<i class='fas fa-pause'></i>";
+  } else {
+    myAudio.pause();
+    playButton.innerHTML = "<i class='fas fa-music'></i>";
+  }
+});
+
+        //NOMBRES DE LOS EQUIPOS 
+        var nombreEquipo = sessionStorage.getItem('nombreEquipo');
+        var nombreEquipo2 = sessionStorage.getItem('nombreEquipo2');
+        document.getElementById('nequito').textContent = nombreEquipo;
+        /*
+        document.getElementById('nombreEquipo').textContent = nombreEquipo;
+        document.getElementById('nombreEquipo2').textContent = nombreEquipo2;*/
+
+        // FUNCION DE BUSQUEDA 
+        const audio = document.getElementById("myAudio");
+        audio.volume = 0.2;
+        
+
+        
+       
+    </script>
+    <script src="game.js" charset="UTF-8"></script>
+</body>
+
+</html>
