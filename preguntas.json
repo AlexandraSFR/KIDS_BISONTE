@@ -1,18 +1,446 @@
 [
     {
-        "pregunta" : "¿Quién prepara las preguntas en una entrevista?",
-        "respuesta": "Entrevistador",
-        "incorrecta1": "Entrevistado",
-        "incorrecta2": "Público",
-        "incorrecta3" : "Escritor"
+        "pregunta" : "¿Cuál es el sujeto de la siguiente oración? 'El perro ladra fuerte.'",
+        "respuesta": "Perro",
+        "incorrecta1": "Ladra",
+        "incorrecta2": "Fuerte",
+        "incorrecta3" : "El"
     },
     {
-        "pregunta" : "",
-        "respuesta": "",
-        "incorrecta1": "",
-        "incorrecta2": "",
-        "incorrecta3" : ""
+        "pregunta" : "¿Cuál es el objeto directo de la siguiente oración? 'María compró un libro nuevo.'",
+        "respuesta": "Un libro nuevo",
+        "incorrecta1": "María",
+        "incorrecta2": "Compró",
+        "incorrecta3" : "Ninguna de las anteriores"
+    },
+    {
+        "pregunta" : "¿Cuál es el verbo en infinitivo en la siguiente oración? 'Me gusta cantar en la ducha.'",
+        "respuesta": "cantar",
+        "incorrecta1": "gusta",
+        "incorrecta2": "ducha",
+        "incorrecta3" : "en"
+    },
+    {
+        "pregunta" : "¿Cuál es el objeto indirecto en la siguiente oración? 'Juan le regaló un libro a su hermana.'",
+        "respuesta": "hermana",
+        "incorrecta1": "Juan",
+        "incorrecta2": "libro",
+        "incorrecta3" : "regaló"
+    },
+    {
+        "pregunta" : "¿Cuál es el sustantivo en plural de la palabra 'gato'?",
+        "respuesta": "Gatos",
+        "incorrecta1": "Gata",
+        "incorrecta2": "Gato",
+        "incorrecta3" : "Gatas"
+    },
+    {
+        "pregunta" : "¿Cuál es el antónimo de 'pequeño'?",
+        "respuesta": "Grande",
+        "incorrecta1": "Alto",
+        "incorrecta2": "Rápido",
+        "incorrecta3" : "Bueno"
+    },
+    {
+        "pregunta" : "Adjetivo posesivo para completar la oración:'_____ libro es rojo.'",
+        "respuesta": "Mi",
+        "incorrecta1": "Tu",
+        "incorrecta2": "Su",
+        "incorrecta3" : "Nuestro"
+    },
+    {
+        "pregunta" : "¿Cuál es el sinónimo de la palabra 'alegre'?",
+        "respuesta": "Contento",
+        "incorrecta1": "Triste",
+        "incorrecta2": "Grande",
+        "incorrecta3" : "Oscuro"
+    },
+    {
+        "pregunta" : "Pronombre personal en la siguiente oración: 'Ellos van al parque'",
+        "respuesta": "Ellos",
+        "incorrecta1": "Van",
+        "incorrecta2": "Al",
+        "incorrecta3" : "Parque"
+    },
+    {
+        "pregunta" : "¿Cuál es la sílaba tónica de la palabra 'mariposa'?",
+        "respuesta": "Ri",
+        "incorrecta1": "Ma",
+        "incorrecta2": "Po",
+        "incorrecta3" : "Sa"
+    },
+    {
+        "pregunta" : "¿Qué nombre recibe el proceso por el cual los seres vivos toman oxígeno y liberan dióxido de carbono?",
+        "respuesta": "Respiración celular",
+        "incorrecta1": "Fotosíntesis",
+        "incorrecta2": "Fermentación",
+        "incorrecta3" : "Digestión"
+    },
+    {
+        "pregunta" : "¿Cuál es el órgano encargado de bombear la sangre en nuestro cuerpo?",
+        "respuesta": "Corazón",
+        "incorrecta1": "Pulmones",
+        "incorrecta2": "Riñones",
+        "incorrecta3" : "Estómago"
+    },
+    {
+        "pregunta" : "¿Cuál de los siguientes es un ejemplo de mamífero?",
+        "respuesta": "Perro",
+        "incorrecta1": "Rana",
+        "incorrecta2": "Serpiente",
+        "incorrecta3" : "Abeja"
+    },
+    {
+        "pregunta" : "¿Cuál de los siguientes es un recurso natural renovable?",
+        "respuesta": "Madera",
+        "incorrecta1": "Petróleo",
+        "incorrecta2": "Carbón",
+        "incorrecta3" : "Oro"
+    },
+    {
+        "pregunta" : "¿Cuál de las siguientes opciones es un estado de la materia?",
+        "respuesta": "Sólido",
+        "incorrecta1": "Energía",
+        "incorrecta2": "Calor",
+        "incorrecta3" : "Aire"
+    },
+    {
+        "pregunta" : "¿Cuál es el proceso mediante el cual las plantas fabrican su alimento?",
+        "respuesta": "Fotosíntesis",
+        "incorrecta1": "Respiración",
+        "incorrecta2": "Digestión",
+        "incorrecta3" : "Transpiración"
+    },
+    {
+        "pregunta" : "¿Cuál de los siguientes animales es un herbívoro?",
+        "respuesta": "Conejo",
+        "incorrecta1": "Serpiente",
+        "incorrecta2": "León",
+        "incorrecta3" : "Águila"
+    },
+    {
+        "pregunta" : "¿Cuál es el gas que necesitamos para respirar?",
+        "respuesta": "Oxígeno",
+        "incorrecta1": "Dióxido de carbono",
+        "incorrecta2": "Nitrógeno",
+        "incorrecta3" : "Metano"
+    },
+    {
+        "pregunta" : "¿Cuál es el planeta más cercano al Sol en nuestro sistema solar?",
+        "respuesta": "Mercurio",
+        "incorrecta1": "Marte",
+        "incorrecta2": "Júpiter",
+        "incorrecta3" : "Venus"
+    }, {
+        "pregunta" : "¿Cuál de los siguientes es un ejemplo de una fuente de energía no renovable?",
+        "respuesta": "Petróleo",
+        "incorrecta1": "Energía solar",
+        "incorrecta2": "Energía eólica",
+        "incorrecta3" : "Biomasa"
+    },
+    {
+        "pregunta" : "¿Cuál es el resultado de la siguiente suma? 8 + 5 =",
+        "respuesta": "13",
+        "incorrecta1": "10",
+        "incorrecta2": "12",
+        "incorrecta3" : "15"
+    },
+    {
+        "pregunta" : "Completa la siguiente serie numérica: 2, 4, 6, __, 10",
+        "respuesta": "8",
+        "incorrecta1": "9",
+        "incorrecta2": "11",
+        "incorrecta3" : "12"
+    },
+    {
+        "pregunta" : "-¿Cuál es el resultado de la siguiente resta? 17 - 9 =",
+        "respuesta": "8",
+        "incorrecta1": "9",
+        "incorrecta2": "7",
+        "incorrecta3" : "6"
+    },
+    {
+        "pregunta" : "Si tienes 3 manzanas y das 2 a tu amigo, ¿cuántas manzanas te quedan?",
+        "respuesta": "1",
+        "incorrecta1": "2",
+        "incorrecta2": "3",
+        "incorrecta3" : "4"
+    },
+
+    {
+        "pregunta" : "¿Cuál es el resultado de la siguiente multiplicación? 5 x 3 =",
+        "respuesta": "15",
+        "incorrecta1": "8",
+        "incorrecta2": "12",
+        "incorrecta3" : "18"
+    },
+
+    {
+        "pregunta" : "¿Cuál es el resultado de la siguiente división? 36 ÷ 6 =",
+        "respuesta": "6",
+        "incorrecta1": "4",
+        "incorrecta2": "8",
+        "incorrecta3" : "10"
+    },
+
+    {
+        "pregunta" : "Tienes 20 caramelos, los repartes entre 4 amigos, ¿cuántos caramelos le tocan a cada uno?",
+        "respuesta": "6",
+        "incorrecta1": "2",
+        "incorrecta2": "4",
+        "incorrecta3" : "5"
+    },
+
+    {
+        "pregunta" : "-¿Cuál es el resultado de la siguiente operación? (4 + 2) x 3 =",
+        "respuesta": "18",
+        "incorrecta1": "6",
+        "incorrecta2": "12",
+        "incorrecta3" : "24"
+    },
+
+    {
+        "pregunta" : "¿Cuántos lados tiene un triángulo?",
+        "respuesta": "3",
+        "incorrecta1": "2",
+        "incorrecta2": "4",
+        "incorrecta3" : "5"
+    },
+
+    {
+        "pregunta" : "¿Cuántas horas hay en un día?",
+        "respuesta": "24",
+        "incorrecta1": "12",
+        "incorrecta2": "30",
+        "incorrecta3" : "18"
+    },
+
+    {
+        "pregunta" : "¿Cuál es la forma geométrica que tiene cuatro lados de igual longitud y cuatro ángulos rectos?",
+        "respuesta": "Cuadrado",
+        "incorrecta1": "Triángulo",
+        "incorrecta2": "Círculo",
+        "incorrecta3" : "Rectángulo"
+    },
+    {
+        "pregunta" : "¿Cuál es la unidad de medida de longitud más pequeña?",
+        "respuesta": "Milímetro",
+        "incorrecta1": "Metro",
+        "incorrecta2": "Centímetro",
+        "incorrecta3" : "Kilómetro"
+    },
+    {
+        "pregunta" : "¿Quién fue el líder de los mexicas durante la conquista de México-Tenochtitlan?",
+        "respuesta": "Moctezuma",
+        "incorrecta1": "Hernán Cortés",
+        "incorrecta2": "Emiliano Zapata",
+        "incorrecta3" : "Miguel Hidalgo"
+    },
+    {
+        "pregunta" : "¿En qué año se llevó a cabo la Independencia de México?",
+        "respuesta": "1821",
+        "incorrecta1": "1809",
+        "incorrecta2": "1810",
+        "incorrecta3" : "1910"
+    },
+    {
+        "pregunta" : "¿Cuál fue la civilización antigua que construyó las pirámides de Teotihuacán?",
+        "respuesta": "Teotihuacanos",
+        "incorrecta1": "Mayas",
+        "incorrecta2": "Aztecas",
+        "incorrecta3" : "Olmecas"
+    },
+    {
+        "pregunta" : "¿Quién fue el presidente de México durante la Revolución Mexicana?",
+        "respuesta": "Venustiano Carranza",
+        "incorrecta1": "Benito Juárez",
+        "incorrecta2": "Porfirio Díaz",
+        "incorrecta3" : "Francisco Villa"
+    },
+    {
+        "pregunta" : "¿En qué año se promulgó la Constitución Mexicana?",
+        "respuesta": "1917",
+        "incorrecta1": "1910",
+        "incorrecta2": "1810",
+        "incorrecta3" : "1808"
+    },
+    {
+        "pregunta" : "¿Quién es considerado el padre de la patria en México?",
+        "respuesta": "Miguel Hidalgo",
+        "incorrecta1": "José María Morelos",
+        "incorrecta2": "Benito Juárez",
+        "incorrecta3" : "Emiliano Zapata"
+    },
+    {
+        "pregunta" : "¿Cuál fue la última civilización mesoamericana antes de la llegada de los españoles?",
+        "respuesta": "Aztecas",
+        "incorrecta1": "Olmecas",
+        "incorrecta2": "Toltecas",
+        "incorrecta3" : "Mayas"
+    },
+    {
+        "pregunta" : "¿Quién fue el líder del movimiento armado conocido como la Revolución Mexicana?",
+        "respuesta": "Emiliano Zapata",
+        "incorrecta1": "Francisco Villa",
+        "incorrecta2": "Venustiano Carranza",
+        "incorrecta3" : "Porfirio Díaz"
+    },
+    {
+        "pregunta" : "¿Cuál fue la fecha en la que se conmemora el Día de la Independencia de México?",
+        "respuesta": "16 de septiembre",
+        "incorrecta1": "5 de mayo",
+        "incorrecta2": "20 de noviembre",
+        "incorrecta3" : "12 de octubre"
+    },
+    {
+        "pregunta" : "¿Qué civilización prehispánica construyó la ciudad de Chichén Itzá en la península de Yucatán?",
+        "respuesta": "Mayas",
+        "incorrecta1": "Aztecas",
+        "incorrecta2": "Olmecas",
+        "incorrecta3" : "Toltecas"
+    },
+    {
+        "pregunta" : "¿Qué significa ser respetuoso con los demás?",
+        "respuesta": "Tratarlos con amabilidad",
+        "incorrecta1": "Hablar en voz alta",
+        "incorrecta2": "Ignorar a las personas",
+        "incorrecta3" : "Gritar y hacer burlas"
+    },
+    {
+        "pregunta" : "¿Cuál es una manera de ser responsable en la escuela?",
+        "respuesta": "Hacer las tareas y estudiar",
+        "incorrecta1": "No hacer las tareas",
+        "incorrecta2": "Llegar tarde a clases",
+        "incorrecta3" : "No prestar atención en clase"
+    },
+    {
+        "pregunta" : "¿Qué significa ser honesto?",
+        "respuesta": "Decir siempre la verdad",
+        "incorrecta1": "Decir mentiras ocasionalmente",
+        "incorrecta2": "Decir medias verdades",
+        "incorrecta3" : "Decir siempre mentiras"
+    },
+    {
+        "pregunta" : "¿Qué implica ser solidario con los demás?",
+        "respuesta": "Ayudar y apoyar a quienes lo necesitan",
+        "incorrecta1": "Ignorar las necesidades de los demás",
+        "incorrecta2": "No importarse por los problemas de los demás",
+        "incorrecta3" : "Ser egoísta y pensar solo en uno mismo"
+    },
+    {
+        "pregunta" : "¿Qué es la responsabilidad?",
+        "respuesta": "Cumplir con los deberes y compromisos",
+        "incorrecta1": "Ignorar los deberes y compromisos",
+        "incorrecta2": "No preocuparse por las consecuencias de las acciones",
+        "incorrecta3" : "Ser irresponsable y descuidado"
+    },
+    {
+        "pregunta" : "¿Qué implica ser cívico?",
+        "respuesta": "Cumplir con las normas y bienestar",
+        "incorrecta1": "Ignorar las normas y el bienestar común",
+        "incorrecta2": "Ser irrespetuoso y causar conflictos",
+        "incorrecta3" : "No importarse por el bienestar común"
+    },
+    {
+        "pregunta" : "¿Cuál es uno de los principales valores éticos en la cultura mexicana?",
+        "respuesta": "La honestidad",
+        "incorrecta1": "La corrupción",
+        "incorrecta2": "La indiferencia",
+        "incorrecta3" : "La discriminación"
+    },
+    {
+        "pregunta" : "¿Qué implica la ética en el ámbito laboral?",
+        "respuesta": "Cumplir con responsabilidad en el trabajo",
+        "incorrecta1": "Realizar actividades ilegales en el trabajo",
+        "incorrecta2": "No preocuparse por la calidad del trabajo ",
+        "incorrecta3" : "Ignorar las normas y regulaciones laborales"
+    },
+    {
+        "pregunta" : "¿Cuál es el papel de la ética en la sociedad mexicana?",
+        "respuesta": "Promover el respeto a los derechos humanos",
+        "incorrecta1": "Fomentar la injusticia y la desigualdad",
+        "incorrecta2": "Ignorar las normas y valores sociales",
+        "incorrecta3" : "No tomar en cuenta la ética en la sociedad"
+    },
+    {
+        "pregunta" : "¿Cuál es el objetivo principal de la ética en el ámbito empresarial en México?",
+        "respuesta": "Fomentar prácticas empresariales éticas ",
+        "incorrecta1": "Promover la corrupción y el soborno",
+        "incorrecta2": "Ignorar la responsabilidad social de las empresas",
+        "incorrecta3" : "Fomentar la deshonestidad en la empresa"
+    },
+    {
+        "pregunta" : "¿Cuál es el océano más grande del mundo?",
+        "respuesta": "Océano Pacífico",
+        "incorrecta1": "Océano Atlántico",
+        "incorrecta2": "Océano Índico",
+        "incorrecta3" : "Océano Ártico"
+    },
+    {
+        "pregunta" : "¿Cuál es el continente donde se encuentra México?",
+        "respuesta": "América del Norte",
+        "incorrecta1": "América del Sur",
+        "incorrecta2": "Europa",
+        "incorrecta3" : "Asia"
+    },
+    {
+        "pregunta" : "¿Cuál es el río más largo del mundo?",
+        "respuesta": "Río Nilo",
+        "incorrecta1": "Río Amazonas",
+        "incorrecta2": "Río Mississippi",
+        "incorrecta3" : "Río Yangtsé"
+    },
+    {
+        "pregunta" : "¿Cuál es el país más grande del mundo en superficie?",
+        "respuesta": "Rusia",
+        "incorrecta1": "Estados Unidos",
+        "incorrecta2": "China",
+        "incorrecta3" : "Canadá"
+    },
+    {
+        "pregunta" : "¿Cuál es la capital de España?",
+        "respuesta": "Madrid",
+        "incorrecta1": "Roma",
+        "incorrecta2": "París",
+        "incorrecta3" : "Berlín"
+    },
+    {
+        "pregunta" : "¿Cuál es el continente con la mayor población?",
+        "respuesta": "Asia",
+        "incorrecta1": "África",
+        "incorrecta2": "Europa",
+        "incorrecta3" : "América"
+    },
+    {
+        "pregunta" : "¿Cuál es el desierto más grande del mundo?",
+        "respuesta": "Desierto del Sahara",
+        "incorrecta1": "Desierto de Atacama",
+        "incorrecta2": "Desierto de Gobi",
+        "incorrecta3" : "Desierto de Kalahari"
+    },
+    {
+        "pregunta" : "¿Cuál es el país que se encuentra en la parte sur de América del Sur?",
+        "respuesta": "Brasil",
+        "incorrecta1": "México",
+        "incorrecta2": "Canadá",
+        "incorrecta3" : "Colombia"
+    },
+    {
+        "pregunta" : "¿Cuál es el país más poblado del mundo?",
+        "respuesta": "China",
+        "incorrecta1": "India",
+        "incorrecta2": "Estados Unidos",
+        "incorrecta3" : "Rusia"
+    },
+    {
+        "pregunta" : "¿Cuál es el punto más alto de la Tierra?",
+        "respuesta": "Monte Everest",
+        "incorrecta1": "Monte Kilimanjaro",
+        "incorrecta2": "Montaña Vinson",
+        "incorrecta3" : "Montaña Aconcagua"
     }
+
+
 
 
 
